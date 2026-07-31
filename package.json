@@ -1,0 +1,54 @@
+{
+  "name": "nbp-exchange-rate",
+  "version": "1.0.0",
+  "description": "Official Narodowy Bank Polski (Poland) daily exchange rates — ~35 currencies vs PLN, history since 2016. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "nbp",
+    "narodowy",
+    "bank",
+    "polski",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "pln",
+    "central-bank",
+    "official-rates",
+    "poland",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/nbp/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exchange-RateAPI/nbp-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Exchange-RateAPI/nbp-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
