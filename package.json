@@ -1,7 +1,7 @@
 {
   "name": "nbp-exchange-rate",
-  "version": "1.0.1",
-  "description": "Official Narodowy Bank Polski (Poland) daily exchange rates — ~35 currencies vs PLN, history since 2016. Zero-dependency Node.js/TypeScript client.",
+  "version": "1.1.2",
+  "description": "Official Narodowy Bank Polski (Poland) daily exchange rates — 32 currencies vs PLN, history since 2016. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "nbp",
     "narodowy",
