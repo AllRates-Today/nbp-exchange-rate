@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/nbp-exchange-rate.svg)](https://github.com/AllRates-Today/nbp-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/nbp-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![EUR/PLN today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fnbp%3Fsource%3DEUR%26target%3DPLN&query=%24.rate&label=EUR%2FPLN%20published%20by%20Narodowy%20Bank%20Polski&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/nbp/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fnbp%3Fsource%3DEUR%26target%3DPLN&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/nbp/)
 
 **Official Narodowy Bank Polski (Poland) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Narodowy Bank Polski itself prints, every business day.**
 
@@ -32,6 +34,51 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Narodowy Bank Polski table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Narodowy Bank Polski — 32 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AUD | PLN | middle | 2.7211 |
+| BRL | PLN | middle | 0.7793 |
+| CAD | PLN | middle | 2.745 |
+| CHF | PLN | middle | 4.6926 |
+| CLP | PLN | middle | 0.004001 |
+| CNY | PLN | middle | 0.5839 |
+| CZK | PLN | middle | 0.1794 |
+| DKK | PLN | middle | 0.5859 |
+| EUR | PLN | middle | 4.3789 |
+| GBP | PLN | middle | 5.1635 |
+| HKD | PLN | middle | 0.4987 |
+| HUF | PLN | middle | 0.01195 |
+| IDR | PLN | middle | 0.00021868 |
+| ILS | PLN | middle | 1.2733 |
+| INR | PLN | middle | 0.040431 |
+| ISK | PLN | middle | 0.031963 |
+| JPY | PLN | middle | 0.024729 |
+| KRW | PLN | middle | 0.002914 |
+| MXN | PLN | middle | 0.2173 |
+| MYR | PLN | middle | 0.9568 |
+| NOK | PLN | middle | 0.4092 |
+| NZD | PLN | middle | 2.1884 |
+| PHP | PLN | middle | 0.0622 |
+| RON | PLN | middle | 0.8179 |
+| SEK | PLN | middle | 0.3912 |
+| SGD | PLN | middle | 3.0534 |
+| THB | PLN | middle | 0.1163 |
+| TRY | PLN | middle | 0.0793 |
+| UAH | PLN | middle | 0.0873 |
+| USD | PLN | middle | 3.9132 |
+| XDR | PLN | middle | 5.2976 |
+| ZAR | PLN | middle | 0.235 |
+
+Source: [Official rates published by NBP, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbp/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
