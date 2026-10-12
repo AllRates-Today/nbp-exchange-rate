@@ -40,42 +40,42 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full Narodowy Bank Polski table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-09** by Narodowy Bank Polski — 32 rates. Updated 2026-10-09.
+Published **2026-10-12** by Narodowy Bank Polski — 32 rates. Updated 2026-10-12.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | PLN | middle | 2.7227 |
-| BRL | PLN | middle | 0.7776 |
-| CAD | PLN | middle | 2.7426 |
-| CHF | PLN | middle | 4.6946 |
-| CLP | PLN | middle | 0.003986 |
-| CNY | PLN | middle | 0.5831 |
-| CZK | PLN | middle | 0.1797 |
-| DKK | PLN | middle | 0.5856 |
-| EUR | PLN | middle | 4.3775 |
-| GBP | PLN | middle | 5.1655 |
-| HKD | PLN | middle | 0.4972 |
-| HUF | PLN | middle | 0.011999 |
-| IDR | PLN | middle | 0.00021824 |
-| ILS | PLN | middle | 1.2775 |
-| INR | PLN | middle | 0.040326 |
-| ISK | PLN | middle | 0.031999 |
-| JPY | PLN | middle | 0.024681 |
-| KRW | PLN | middle | 0.002907 |
-| MXN | PLN | middle | 0.2147 |
-| MYR | PLN | middle | 0.955 |
-| NOK | PLN | middle | 0.4077 |
-| NZD | PLN | middle | 2.1891 |
-| PHP | PLN | middle | 0.0621 |
-| RON | PLN | middle | 0.8191 |
-| SEK | PLN | middle | 0.3917 |
-| SGD | PLN | middle | 3.0482 |
-| THB | PLN | middle | 0.1164 |
-| TRY | PLN | middle | 0.0791 |
-| UAH | PLN | middle | 0.0869 |
-| USD | PLN | middle | 3.9022 |
-| XDR | PLN | middle | 5.2903 |
-| ZAR | PLN | middle | 0.2359 |
+| AUD | PLN | middle | 2.7331 |
+| BRL | PLN | middle | 0.7854 |
+| CAD | PLN | middle | 2.7494 |
+| CHF | PLN | middle | 4.7111 |
+| CLP | PLN | middle | 0.004014 |
+| CNY | PLN | middle | 0.5859 |
+| CZK | PLN | middle | 0.1799 |
+| DKK | PLN | middle | 0.5872 |
+| EUR | PLN | middle | 4.3889 |
+| GBP | PLN | middle | 5.1906 |
+| HKD | PLN | middle | 0.4996 |
+| HUF | PLN | middle | 0.012019 |
+| IDR | PLN | middle | 0.00021906 |
+| ILS | PLN | middle | 1.273 |
+| INR | PLN | middle | 0.040958 |
+| ISK | PLN | middle | 0.032083 |
+| JPY | PLN | middle | 0.024746 |
+| KRW | PLN | middle | 0.002942 |
+| MXN | PLN | middle | 0.2131 |
+| MYR | PLN | middle | 0.9604 |
+| NOK | PLN | middle | 0.4094 |
+| NZD | PLN | middle | 2.1959 |
+| PHP | PLN | middle | 0.0625 |
+| RON | PLN | middle | 0.8222 |
+| SEK | PLN | middle | 0.3916 |
+| SGD | PLN | middle | 3.0628 |
+| THB | PLN | middle | 0.1167 |
+| TRY | PLN | middle | 0.0794 |
+| UAH | PLN | middle | 0.0873 |
+| USD | PLN | middle | 3.9211 |
+| XDR | PLN | middle | 5.3001 |
+| ZAR | PLN | middle | 0.2368 |
 
 Source: [Official rates published by NBP, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbp/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
