@@ -47,42 +47,42 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Narodowy Bank Polski — 32 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Narodowy Bank Polski — 32 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | PLN | middle | 2.7852 |
-| BRL | PLN | middle | 0.7404 |
-| CAD | PLN | middle | 2.8183 |
-| CHF | PLN | middle | 4.7722 |
-| CLP | PLN | middle | 0.004025 |
-| CNY | PLN | middle | 0.5943 |
-| CZK | PLN | middle | 0.1809 |
-| DKK | PLN | middle | 0.5899 |
-| EUR | PLN | middle | 4.409 |
-| GBP | PLN | middle | 5.2645 |
-| HKD | PLN | middle | 0.5051 |
-| HUF | PLN | middle | 0.012011 |
-| IDR | PLN | middle | 0.00021796 |
-| ILS | PLN | middle | 1.2775 |
-| INR | PLN | middle | 0.041609 |
-| ISK | PLN | middle | 0.032324 |
-| JPY | PLN | middle | 0.025104 |
-| KRW | PLN | middle | 0.002959 |
-| MXN | PLN | middle | 0.2123 |
-| MYR | PLN | middle | 0.9719 |
-| NOK | PLN | middle | 0.4247 |
-| NZD | PLN | middle | 2.2188 |
+| AUD | PLN | middle | 2.7761 |
+| BRL | PLN | middle | 0.7383 |
+| CAD | PLN | middle | 2.821 |
+| CHF | PLN | middle | 4.7628 |
+| CLP | PLN | middle | 0.003995 |
+| CNY | PLN | middle | 0.5925 |
+| CZK | PLN | middle | 0.1807 |
+| DKK | PLN | middle | 0.5881 |
+| EUR | PLN | middle | 4.3951 |
+| GBP | PLN | middle | 5.2545 |
+| HKD | PLN | middle | 0.5031 |
+| HUF | PLN | middle | 0.012004 |
+| IDR | PLN | middle | 0.00021772 |
+| ILS | PLN | middle | 1.2664 |
+| INR | PLN | middle | 0.04144 |
+| ISK | PLN | middle | 0.032365 |
+| JPY | PLN | middle | 0.02499 |
+| KRW | PLN | middle | 0.002952 |
+| MXN | PLN | middle | 0.2108 |
+| MYR | PLN | middle | 0.9727 |
+| NOK | PLN | middle | 0.4249 |
+| NZD | PLN | middle | 2.2145 |
 | PHP | PLN | middle | 0.0619 |
-| RON | PLN | middle | 0.8239 |
-| SEK | PLN | middle | 0.3985 |
-| SGD | PLN | middle | 3.0901 |
-| THB | PLN | middle | 0.1174 |
-| TRY | PLN | middle | 0.0795 |
-| UAH | PLN | middle | 0.0869 |
-| USD | PLN | middle | 3.9624 |
-| XDR | PLN | middle | 5.3486 |
-| ZAR | PLN | middle | 0.2379 |
+| RON | PLN | middle | 0.8219 |
+| SEK | PLN | middle | 0.3989 |
+| SGD | PLN | middle | 3.0807 |
+| THB | PLN | middle | 0.1169 |
+| TRY | PLN | middle | 0.079 |
+| UAH | PLN | middle | 0.0867 |
+| USD | PLN | middle | 3.9473 |
+| XDR | PLN | middle | 5.3366 |
+| ZAR | PLN | middle | 0.2373 |
 
 </details>
 
@@ -247,6 +247,7 @@ Narodowy Bank Polski is Poland's central bank. Its Table A of average foreign cu
 
 - Publisher's own page: [Exchange rates (Table A)](https://nbp.pl/en/statistic-and-financial-reporting/rates/) · [nbp.pl](https://nbp.pl)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Narodowy Bank Polski rates page](https://allratestoday.com/central-bank-rates-api/nbp/)
+- In the API: usually by **11:15 UTC** (measured over the last 11 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
