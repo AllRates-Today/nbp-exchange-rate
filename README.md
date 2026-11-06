@@ -32,42 +32,42 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-05 by Narodowy Bank Polski — 32 rates. Updated 2026-11-05.</summary>
+<summary>Table as text: published 2026-11-06 by Narodowy Bank Polski — 32 rates. Updated 2026-11-06.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | PLN | middle | 2.7418 |
-| BRL | PLN | middle | 0.7157 |
-| CAD | PLN | middle | 2.8022 |
-| CHF | PLN | middle | 4.7844 |
-| CLP | PLN | middle | 0.004046 |
-| CNY | PLN | middle | 0.5863 |
-| CZK | PLN | middle | 0.1809 |
-| DKK | PLN | middle | 0.5875 |
-| EUR | PLN | middle | 4.3916 |
-| GBP | PLN | middle | 5.2644 |
-| HKD | PLN | middle | 0.4984 |
-| HUF | PLN | middle | 0.012095 |
-| IDR | PLN | middle | 0.00021627 |
-| ILS | PLN | middle | 1.2358 |
-| INR | PLN | middle | 0.041393 |
-| ISK | PLN | middle | 0.032149 |
-| JPY | PLN | middle | 0.024695 |
-| KRW | PLN | middle | 0.002915 |
-| MXN | PLN | middle | 0.2104 |
-| MYR | PLN | middle | 0.9665 |
-| NOK | PLN | middle | 0.4217 |
-| NZD | PLN | middle | 2.2039 |
-| PHP | PLN | middle | 0.0622 |
+| AUD | PLN | middle | 2.701 |
+| BRL | PLN | middle | 0.7144 |
+| CAD | PLN | middle | 2.793 |
+| CHF | PLN | middle | 4.8037 |
+| CLP | PLN | middle | 0.004023 |
+| CNY | PLN | middle | 0.5894 |
+| CZK | PLN | middle | 0.1805 |
+| DKK | PLN | middle | 0.5876 |
+| EUR | PLN | middle | 4.3925 |
+| GBP | PLN | middle | 5.263 |
+| HKD | PLN | middle | 0.5016 |
+| HUF | PLN | middle | 0.012076 |
+| IDR | PLN | middle | 0.00021742 |
+| ILS | PLN | middle | 1.2339 |
+| INR | PLN | middle | 0.041872 |
+| ISK | PLN | middle | 0.032109 |
+| JPY | PLN | middle | 0.024832 |
+| KRW | PLN | middle | 0.002907 |
+| MXN | PLN | middle | 0.2103 |
+| MYR | PLN | middle | 0.9686 |
+| NOK | PLN | middle | 0.4176 |
+| NZD | PLN | middle | 2.1794 |
+| PHP | PLN | middle | 0.0624 |
 | RON | PLN | middle | 0.8224 |
-| SEK | PLN | middle | 0.4006 |
-| SGD | PLN | middle | 3.063 |
-| THB | PLN | middle | 0.117 |
-| TRY | PLN | middle | 0.0782 |
-| UAH | PLN | middle | 0.086 |
-| USD | PLN | middle | 3.9101 |
-| XDR | PLN | middle | 5.2915 |
-| ZAR | PLN | middle | 0.2386 |
+| SEK | PLN | middle | 0.398 |
+| SGD | PLN | middle | 3.0684 |
+| THB | PLN | middle | 0.1172 |
+| TRY | PLN | middle | 0.0785 |
+| UAH | PLN | middle | 0.0867 |
+| USD | PLN | middle | 3.9321 |
+| XDR | PLN | middle | 5.3081 |
+| ZAR | PLN | middle | 0.2382 |
 
 </details>
 
